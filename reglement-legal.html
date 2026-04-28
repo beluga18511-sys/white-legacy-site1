@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>White Legacy | Règlement Légal</title>
+    <meta
+      name="description"
+      content="Règlement légal du serveur RP White Legacy."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-page="reglement-legal.html">
+    <div class="site-shell">
+      <header class="page-hero page-hero--inner">
+        <nav class="navbar">
+          <a href="index.html" class="brand" aria-label="Retour à l'accueil">
+            <span class="media-frame media-frame--logo">
+              <img
+                class="media-image media-image--contain brand-logo"
+                data-image-key="logo"
+                alt="Logo White Legacy"
+                loading="eager"
+              />
+              <span class="media-fallback" aria-hidden="true">
+                <strong>WL</strong>
+                <small>Logo</small>
+              </span>
+            </span>
+
+            <span class="brand-copy">
+              <span class="brand-text">White Legacy</span>
+              <span class="brand-subtitle">Serveur RP</span>
+            </span>
+          </a>
+
+          <button
+            class="nav-toggle"
+            type="button"
+            aria-label="Ouvrir le menu"
+            aria-expanded="false"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <div class="nav-links">
+            <a href="index.html">Accueil</a>
+            <a href="reglement-general.html">Règlement Général</a>
+            <a href="reglement-legal.html">Règlement Légal</a>
+            <a href="reglement-illegal.html">Règlement Illégal</a>
+            <a href="lexique.html">Lexique RP</a>
+          </div>
+        </nav>
+      </header>
+
+      <main class="page-main">
+        <section class="rules-layout">
+          <aside class="rules-sidebar" data-reveal>
+            <a href="index.html" class="back-link">Retour à l’accueil</a>
+
+            <div class="media-frame media-frame--rule">
+              <img
+                class="media-image media-image--contain"
+                data-image-key="legal"
+                alt="Illustration du règlement légal"
+                loading="lazy"
+              />
+              <div class="media-fallback" aria-hidden="true">
+                <strong>Illustration légale</strong>
+                <small>Ajoute ou remplace `images/legal.png`</small>
+              </div>
+            </div>
+          </aside>
+
+          <section
+            class="rules-reader rules-content-panel"
+            data-reveal
+            data-rules-source="rules/legal.txt"
+            data-rules-title="Règlement Légal"
+          >
+            <div class="rules-tools">
+              <label class="rules-search-label" for="rules-search-legal">
+                Recherche dans le règlement
+              </label>
+
+              <div class="rules-search-bar">
+                <input
+                  id="rules-search-legal"
+                  class="rules-search-input"
+                  type="search"
+                  placeholder="Exemple : nofear, no pain, metagaming..."
+                  autocomplete="off"
+                  disabled
+                />
+                <button
+                  type="button"
+                  class="rules-clear-button"
+                  disabled
+                >
+                  Vider
+                </button>
+              </div>
+            </div>
+
+            <div class="rules-search-results" hidden></div>
+
+            <div class="rules-content" aria-live="polite">
+              <p class="rules-loading">Chargement du règlement...</p>
+            </div>
+          </section>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>White Legacy <span id="current-year"></span> | Serveur RP</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
