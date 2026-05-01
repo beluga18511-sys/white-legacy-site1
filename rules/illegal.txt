@@ -13,6 +13,8 @@ Interdiction de lancer un braquage sans scénario minimum
 Interdiction de braquer en boucle le même lieu
 Les demandes doivent rester raisonnables
 Obligation de négocier en cas de présence policière
+Interdiction de demander de l’argent directement aux joueurs lors d’un braquage.
+Les braquages doivent servir une scène RP et non un gain rapide.
 ⚠️ Les braquages majeurs doivent obligatoirement être préparés (plan, équipement, rôle)
 ⚠️ Les braquages de banque sont réservés uniquement aux gangs validés
 
